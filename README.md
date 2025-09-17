@@ -1,2 +1,2 @@
-# kanehira_js
-兼平js
+# kanehira.js
+github practice & js practice
