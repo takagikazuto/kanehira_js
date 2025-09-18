@@ -1,0 +1,63 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>JSON読み込みテスト</title>
+</head>
+<body>
+  <p id="output">ここにセリフが出る</p>
+</html>
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>index</title>
+    <body>
+        <header>
+            test
+        </header>
+
+        <main>
+            <!-- ラップ用 -->
+            <div class="wrapper">
+                <div class="title">あなたと車どんな物語がありますか?</div>
+                <div class="img_wrapper">
+                    <div class="monster">
+                        <!-- 画像はセンター配置 -->
+                        <img src="image/tubo.png" alt="kanehira">
+                    </div>
+                </div>
+            
+                <!-- 選択肢 -->
+                <ul class="choice_ul">
+                    <li><button class="choice" id="choice">はじめる</button></li>
+                    <li><button class="choice" id="choice">はじめる</button></li>
+                    <li><button class="choice" id="choice">はじめる</button></li>
+                </ul>
+
+                <button class="start_button">はじめる</button>
+            </div>
+            
+            <div class="text_area">
+                <p>システム:××××年8月〇日</p>
+                <p class="start_p">システム:ベロベロに酔っ払って帰宅したあなた</p>
+            </div>
+
+            <!-- 押したら次の周期 nextは右上配置がよさそう -->
+            <button class="next">次の時間へ</button>
+        </main>
+
+        <footer>test</footer>
+
+    <script type="module" src="js/main.js"></script>
+    </body>
+</html>
+
+
+<!-- 基本画面要素を消したり追加をjsでやる -->
